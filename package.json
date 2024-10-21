@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage > __test__/test_report.txt"
+    "test": "jest --coverage 2>&1 | tee __test__/test_report.txt"
   },
   "keywords": [],
   "author": "",
